@@ -30,20 +30,18 @@ class Grid
   	Grid averageGrid(Grid & original);
   	
   	//Stores the sum of all individual rows in a 1-d array. Print the 1-d array
-  	
   	void sumRows(Grid & original);
+  	
   	/* Flip the grid 180 degrees. Try to do it without using additional memory. 
   	*  If you can't, only then, create a new 2-d array on the heap to achieve this.
   	* Print both the grids.
   	*/
-  	
   	void rotateGrid(Grid & original);
   	
   	/* Flip the grid 90 degrees to the left. Try to do it without using additional memory. 
   	*  If you can't, only then, create a new 2-d array on the heap to achieve this.
   	* Print both the grids.
   	*/
-  	
   	void rotateLeft(Grid & original);
   	
   	
